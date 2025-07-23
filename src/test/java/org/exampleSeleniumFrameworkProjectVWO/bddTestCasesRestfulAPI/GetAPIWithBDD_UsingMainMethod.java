@@ -1,4 +1,4 @@
-package org.exampleSeleniumFrameworkProjectVWO.BDDTestCasesRestfulAPI;
+package org.exampleSeleniumFrameworkProjectVWO.bddTestCasesRestfulAPI;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -10,7 +10,7 @@ public class GetAPIWithBDD_UsingMainMethod {
         System.out.println("Get API with BDD");
         RestAssured.
                 given().baseUri("https://restful-booker.herokuapp.com")
-                .contentType(ContentType.JSON)
+                .contentType(ContentType.JSON).log().all()
                 .when().get("/booking")
                 .then().log().all().statusCode(200)
                 .body("size()", greaterThan(0));

@@ -1,7 +1,6 @@
-package org.exampleSeleniumFrameworkProjectVWO.BDDTestCasesRestfulAPI;
+package org.exampleSeleniumFrameworkProjectVWO.bddTestCasesRestfulAPI;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 import io.restassured.http.ContentType;
 import org.testng.annotations.DataProvider;

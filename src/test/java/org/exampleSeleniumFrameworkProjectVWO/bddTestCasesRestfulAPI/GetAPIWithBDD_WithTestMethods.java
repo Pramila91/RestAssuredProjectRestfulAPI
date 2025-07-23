@@ -1,4 +1,4 @@
-package org.exampleSeleniumFrameworkProjectVWO.BDDTestCasesRestfulAPI;
+package org.exampleSeleniumFrameworkProjectVWO.bddTestCasesRestfulAPI;
 
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
